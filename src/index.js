@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // Keep only this for React 18
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './styles/style.css'; // Load your custom CSS styles
 
+// Use ReactDOM.createRoot for React 18+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
