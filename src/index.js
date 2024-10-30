@@ -1,4 +1,6 @@
 import React from 'react';
+//import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import ReactDOM from 'react-dom/client'; // Keep only this for React 18
 import './index.css';
 import App from './App';

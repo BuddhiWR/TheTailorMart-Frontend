@@ -1,11 +1,10 @@
-// For footer content
-
+// Footer.js
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer>
-      <p>© 2024 Tailoring Management System. All Rights Reserved.</p>
+      <p>&copy; 2024 Tailoring Management System</p>
     </footer>
   );
 };
